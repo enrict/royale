@@ -58,7 +58,7 @@ class Register extends React.Component {
     return (
       <div className="register">
         <h2 className="title">I don't have an account</h2>
-        <span>Sign Up With Email and Password</span>
+        <span>Sign up with email and password</span>
 
         <form className="register-form" onSubmit={this.handleSubmit}>
           <FormInput
